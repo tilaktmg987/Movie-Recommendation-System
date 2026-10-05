@@ -5,7 +5,7 @@ import streamlit as st
 # ==========================================================
 # CONFIG & PAGE SETUP
 # ==========================================================
-API_BASE = os.getenv("API_BASE", "https://movie-recommendation-system-0h2l.onrender.com").rstrip("/")
+API_BASE = os.getenv("API_BASE", "https://movie-recommendation-system-ho30.onrender.com").rstrip("/")
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 st.set_page_config(
