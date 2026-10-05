@@ -870,6 +870,8 @@ elif st.session_state.view == "details":
     for g in genres:
         meta_pills_html += f"<span class='meta-pill'>{g}</span>"
 
+    tagline_html = f"<div class='hero-tagline'>\"{tagline}\"</div>" if tagline else ""
+
     # Hero Banner
     if backdrop:
         st.markdown(
@@ -878,7 +880,7 @@ elif st.session_state.view == "details":
                 <img src='{backdrop}' class='hero-img' />
                 <div class='hero-overlay'>
                     <div class='hero-title'>{title}</div>
-                    {"<div class='hero-tagline'>\"" + tagline + "\"</div>" if tagline else ""}
+                    {tagline_html}
                     <div class='hero-meta-row'>{meta_pills_html}</div>
                 </div>
             </div>
