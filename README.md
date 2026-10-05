@@ -1,4 +1,4 @@
-# 🍿 Movie Recommendation System (CinePulse)
+# Movie Recommendation System
 
 An end-to-end, AI-powered movie discovery and recommendation platform featuring a luxury glassmorphic web UI built with **Streamlit** and a high-performance **FastAPI** backend driven by **TF-IDF content-based filtering** and **TMDB API integration**.
 
